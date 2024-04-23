@@ -6,9 +6,10 @@ let counter = 1;
 let hangmanWord = words[Math.floor(Math.random()*words.length)];
 console.log(hangmanWord);
 //create a innerHTML to put the hangmanWord on the page
-let wordDisplay = document.querySelector("h3");
+let wordDisplay = document.querySelector(".word-header");
+console.log(wordDisplay);
 for(let i = 0; i < hangmanWord.length; i++) {
-  wordDisplay.innerHTML += "<div class='game-box'><ul class='word-display" + i + "'> <li class='letter' style='display:block' id='blank'></li><li class = 'letter' style='display:none' id='"+ hangmanWord.substring(i, i+1) +"'>" + hangmanWord.substring(i, i+1) + "</li></ul></div>";
+  wordDisplay.append("<div class='game-box'><ul class='word-display" + i + "'> <li class='letter' style='display:block' id='blank'></li><li class = 'letter' style='display:none' id='"+ hangmanWord.substring(i, i+1) +"'>" + hangmanWord.substring(i, i+1) + "</li></ul></div>");
   
 };
 
