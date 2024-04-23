@@ -1,0 +1,189 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color:white;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: "Lugrasimo", cursive;
+  font-size: 6rem;
+  background: linear-gradient(to right, #ffadad, #ffD6A5, #FDFFB6, #CAFFBF, #9BF6FF, #A0C4FF, #BDB2FF, #FFC6FF, #FFFFFC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.contain-parent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.container {
+  background-color:white;
+  height: 500px;
+}
+#hc-7 {
+  background-color: red;
+  height: 200px;
+  width: 400px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+#hc-6 {
+  background-color: orange;
+  height: 180px;
+  width: 360px;
+  top: 20px;
+  left: 20px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+#hc-5 {
+  background-color: yellow;
+  height: 160px;
+  width: 320px;
+  top: 20px;
+  left: 20px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+#hc-4 {
+  background-color: green;
+  height: 140px;
+  width: 280px;
+  top: 20px;
+  left: 20px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+#hc-3 {
+  background-color: blue;
+  height: 120px;
+  width: 240px;
+  top: 20px;
+  left: 20px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+#hc-2 {
+  background-color: indigo;
+  height: 100px;
+  width: 200px;
+  top: 20px;
+  left: 20px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+#hc-1 {
+  background-color: violet;
+  height: 80px;
+  width: 160px;
+  top: 20px;
+  left: 20px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+.whitespace {
+  background-color: white;
+  height: 60px;
+  width: 120px;
+  top: 20px;
+  left: 20px;
+  border-radius: 275px 275px 0 0;
+  position: relative;
+}
+
+.letters {
+  display: flex;
+  justify-content: center;
+}
+#buttonA {
+  color: white;
+}
+button{
+  border-radius: 12px;
+  border:pink 2px solid; 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color:black;
+  background-color:white;
+  padding: 20px 20px;
+  font-size:16px;
+}
+
+.animation{
+  height:100px;
+  width:auto;
+ padding-left:400px;
+  animation:cloud 5s linear 2s infinite alternate;
+  position: relative;
+}
+@keyframes cloud {
+  0%   {left:0px; top:0px;}
+  50%  {left:400px; top:0px;}
+  100% {left:0px; top:0px;}
+  
+}
+.word-display .letter{
+  display:flex;
+  gap:10px;
+  list-style:none;
+}
+.word-display .letter{
+  width: 30px;
+  border-bottom: 3px solid black;
+}
+
+.container {
+  width: 850px;
+  background:white;
+  display:flex;
+  gap: 70px;
+  align-items:flex-end;
+  padding: 60px 40px;
+  border-radius: 10px;
+}
+
+
+.game-box {
+  display:flex;
+  justify-content: center;
+  color:purple;
+  border:10px dotted pink;
+}
+.game-box2 {
+  display:flex;
+  justify-content: center;
+}
+
+.game-box3 {
+  display:flex;
+  justify-content: center;
+}
+
+.game-box4 {
+  display:flex;
+  justify-content: center;
+}
+
+.game-box5 {
+  display:flex;
+  justify-content: center;
+}
